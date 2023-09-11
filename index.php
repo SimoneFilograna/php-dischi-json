@@ -13,11 +13,34 @@
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
     <div id="app">
 
+        <header>
+            <div class="container mt-5">
+                <h1 class="display-1 text-center">Your favourite Music CD</h1>
+            </div>
+        </header>
+
+        <main>
+            <div class="container mt-5">
+                <div class="row row-cols-3">
+                    <div class="col">
+                        <div class="card" v-for="singDisk in diskList">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">{{singDisk.nome_disco}}</h5>
+                                <small class="card-text"> {{singDisk.anno_uscita}} </small>
+                                <p class="card-text">{{singDisk.cantante}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
     <script src="./main.js"></script>
 </body>

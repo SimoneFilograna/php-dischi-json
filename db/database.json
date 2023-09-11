@@ -1,0 +1,47 @@
+[
+    {
+        "nome_disco": "Abbey Road",
+        "anno_uscita": 1969,
+        "cantante": "The Beatles"
+    },
+    {
+        "nome_disco": "The Dark Side of the Moon",
+        "anno_uscita": 1973,
+        "cantante": "Pink Floyd"
+    },
+    {
+        "nome_disco": "Led Zeppelin IV",
+        "anno_uscita": 1971,
+        "cantante": "Led Zeppelin"
+    },
+    {
+        "nome_disco": "Rumours",
+        "anno_uscita": 1977,
+        "cantante": "Fleetwood Mac"
+    },
+    {
+        "nome_disco": "Back in Black",
+        "anno_uscita": 1980,
+        "cantante": "AC/DC"
+    },
+    {
+        "nome_disco": "Thriller",
+        "anno_uscita": 1982,
+        "cantante": "Michael Jackson"
+    },
+    {
+        "nome_disco": "The Wall",
+        "anno_uscita": 1979,
+        "cantante": "Pink Floyd"
+    },
+    {
+        "nome_disco": "Nevermind",
+        "anno_uscita": 1991,
+        "cantante": "Nirvana"
+    },
+    {
+        "nome_disco": "The Joshua Tree",
+        "anno_uscita": 1987,
+        "cantante": "U2"
+    }
+]
