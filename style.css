@@ -1,0 +1,8 @@
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 1;
+    backdrop-filter: blur(30px);
+}

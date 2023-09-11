@@ -2,46 +2,55 @@
     {
         "nome_disco": "Abbey Road",
         "anno_uscita": 1969,
-        "cantante": "The Beatles"
+        "cantante": "The Beatles",
+        "bg_album": "https://i.discogs.com/OGI434mxE6vu_u-_YcNLa5to0I8fJievko510ND0T5E/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4OTYw/NDItMTUxOTU3OTky/NC0yODY0LmpwZWc.jpeg"
     },
     {
         "nome_disco": "The Dark Side of the Moon",
         "anno_uscita": 1973,
-        "cantante": "Pink Floyd"
+        "cantante": "Pink Floyd",
+        "bg_album": "https://upload.wikimedia.org/wikipedia/commons/c/c7/The_Dark_Side_of_the_Moon_Cover.svg"
     },
     {
         "nome_disco": "Led Zeppelin IV",
         "anno_uscita": 1971,
-        "cantante": "Led Zeppelin"
+        "cantante": "Led Zeppelin",
+        "bg_album": "https://i.discogs.com/yFq3X0xZMxIVHIFgmbrsPvJHXLJCfVLWs60AL4XS4bs/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMTU0/NjUtMTM2NjMxMTg2/Ny0yNzg1LmpwZWc.jpeg"
     },
     {
-        "nome_disco": "Rumours",
-        "anno_uscita": 1977,
-        "cantante": "Fleetwood Mac"
+        "nome_disco": "Hotel California",
+        "anno_uscita": 1976,
+        "cantante": "Eagles",
+        "bg_album": "https://i.discogs.com/peo3Kq4BU7iA1Jra-YcsObqcrBRcrSxxZ67ScjjYwZQ/rs:fit/g:sm/q:90/h:595/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MDMy/OTU3LTE1NjY1NTk5/MDMtMzYxOC5qcGVn.jpeg"
     },
     {
         "nome_disco": "Back in Black",
         "anno_uscita": 1980,
-        "cantante": "AC/DC"
+        "cantante": "AC/DC",
+        "bg_album": "https://i.discogs.com/U7AOOS-f96uIDPp_01CUDM6g6sCF13Wy2_Uu1ZE3jpI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1NDU5/NzMtMTQyMTY5NDk0/Mi0yMjkwLmpwZWc.jpeg"
     },
     {
         "nome_disco": "Thriller",
         "anno_uscita": 1982,
-        "cantante": "Michael Jackson"
+        "cantante": "Michael Jackson",
+        "bg_album": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
     },
     {
-        "nome_disco": "The Wall",
-        "anno_uscita": 1979,
-        "cantante": "Pink Floyd"
+        "nome_disco": "Sgt. Pepper's Lonely Hearts Club Band",
+        "anno_uscita": 1967,
+        "cantante": "The Beatles",
+        "bg_album": "https://upload.wikimedia.org/wikipedia/en/5/50/Sgt._Pepper%27s_Lonely_Hearts_Club_Band.jpg"
     },
     {
         "nome_disco": "Nevermind",
         "anno_uscita": 1991,
-        "cantante": "Nirvana"
+        "cantante": "Nirvana",
+        "bg_album": "https://i.discogs.com/f5w-_ZrzPzI6phCkoRJFNPexR2fpygR9LoFRUnnKqzY/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MDAz/Mzc2LTE2MTEwNzI3/NzktNzA5Ny5qcGVn.jpeg"
     },
     {
         "nome_disco": "The Joshua Tree",
         "anno_uscita": 1987,
-        "cantante": "U2"
+        "cantante": "U2",
+        "bg_album": "https://upload.wikimedia.org/wikipedia/en/6/6b/The_Joshua_Tree.png"
     }
 ]

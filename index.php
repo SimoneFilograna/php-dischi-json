@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
@@ -28,10 +28,10 @@
         <main>
             <div class="container mt-5">
                 <div class="row row-cols-3">
-                    <div class="col">
-                        <div class="card" v-for="singDisk in diskList">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                    <div class="col g-5" v-for="singDisk in diskList">
+                        <div class="card text-center ratio ratio-1x1">
+                            <img :src="singDisk.bg_album" class="card-img" alt="">
+                            <div class="card-img-overlay d-flex flex-column gap-5 justify-content-center text-light">
                                 <h5 class="card-title">{{singDisk.nome_disco}}</h5>
                                 <small class="card-text"> {{singDisk.anno_uscita}} </small>
                                 <p class="card-text">{{singDisk.cantante}}</p>
