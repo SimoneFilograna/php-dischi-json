@@ -31,10 +31,10 @@
                     <div class="col g-5" v-for="singDisk in diskList">
                         <div class="card text-center ratio ratio-1x1">
                             <img :src="singDisk.bg_album" class="card-img" alt="">
-                            <div class="card-img-overlay d-flex flex-column gap-5 justify-content-center text-light">
-                                <h5 class="card-title">{{singDisk.nome_disco}}</h5>
-                                <small class="card-text"> {{singDisk.anno_uscita}} </small>
-                                <p class="card-text">{{singDisk.cantante}}</p>
+                            <div class="card-img-overlay d-flex flex-column gap-5 justify-content-center text-light px-2">
+                                <h3 class="card-title">{{singDisk.nome_disco}}</h3>
+                                <p class="card-text fs-5"> {{singDisk.anno_uscita}} </p>
+                                <p class="card-text fs-4">{{singDisk.cantante}}</p>
                             </div>
                         </div>
                     </div>
